@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Bipon Biswas</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "script.js"></script>
+
+</head>
+
+
+<body>
+<h2>This is basic quiz app in HTML/CSS/Javascript!</h2>
+
+    <form id = "quiz" name = "quiz">
+
+            <p class = "questions">What is the capital of Bangladesh?</p>
+            <input id = "textbox" type = "text" name = "question1">
+
+            <p class = "questions">What is the capital of India?</p>
+            <input type = "radio" class = "radio" name = "question2" value = "Delli"> Delli<br>
+            <input type = "radio" class = "radio" name = "question2" value = "Kolkata"> Kolkata<br>
+
+            <p class = "questions">What is the capital of France?</p>
+
+            <input type = "radio" class = "radio" name = "question3" value = "Paris"> Paris<br>
+            <input type = "radio" class = "radio" name = "question3" value = "All Benny's"> All Benny's<br>
+
+
+            <input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+    </form>
+
+    <div id = "after-submit">
+        <p class="mt-10" id="correct-answer"></p>
+        <h5 id="message"></h5>
+        <img id="picture">
+    </div>
+</html>
+
+</body>
+
+
+
